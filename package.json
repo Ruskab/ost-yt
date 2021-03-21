@@ -1,6 +1,6 @@
 {
   "name": "ostyt",
-  "version": "1.0.0-SNAPSHOT",
+  "version": "0.0.0-SNAPSHOT",
   "scripts": {
     "heroku-postbuild": "ng build --prod",
     "build-prod": "ng build --prod",
@@ -11,6 +11,10 @@
     "lint": "ng lint",
     "e2e": "ng e2e"
   },
+  "engines": {
+    "node": "~14.15.0",
+    "npm": "~6.14.9"
+  },
   "private": true,
   "dependencies": {
     "@angular/animations": "~11.2.6",
@@ -19,6 +23,7 @@
     "@angular/compiler": "~11.2.6",
     "@angular/core": "~11.2.6",
     "@angular/flex-layout": "^11.0.0-beta.33",
+    "express": "^4.17.1",
     "@angular/forms": "~11.2.6",
     "@angular/material": "^11.2.5",
     "@angular/platform-browser": "~11.2.6",
